@@ -169,6 +169,7 @@ body{
 }
 
 footer{
+    width: 100%;
     position: absolute;
     text-align: center;
     margin: 32px;
@@ -176,3 +177,20 @@ footer{
     bottom: 25px;
 }
 
+@media screen and (max-widht:720px){
+    h1{
+        text-align: center;
+    }
+    .input{
+        position: flex;
+    }
+    .botones{
+        position: absolute;
+        align-items: center;
+    }
+    .recuadro-logo{
+        align-items: center;
+        flex-direction: column;
+
+    } 
+}
