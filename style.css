@@ -1,15 +1,23 @@
 body{
-    position: relative;
-    width: 1440px;
-    height: 1024px;
     background-color: #E5E5E5;
 }
 
-.logo-principal{
-    position: absolute;
-    display: inline;
-    left: 84px;
-    top: 40px;
+header{
+    background: linear-gradient(#CCCCCC, #E5E5E5);
+    padding: 20px 0;
+    width: 100%;
+}
+
+.caja{
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.area_main{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
 .input{
@@ -107,8 +115,8 @@ body{
     position: absolute;
     display: inline;
     width: 400px;
-    height: 944px;
-    left: 1000px;
+    height: 844px;
+    left: 940px;
     top: 40px;
     background: #FFFFFF;
     border: 2px solid #000000;
@@ -170,27 +178,8 @@ body{
 
 footer{
     width: 100%;
-    position: absolute;
+    background: linear-gradient(#E5E5E5, #CCCCCC);
     text-align: center;
-    margin: 32px;
     padding: 40px;
-    bottom: 25px;
-}
-
-@media screen and (max-widht:720px){
-    h1{
-        text-align: center;
-    }
-    .input{
-        position: flex;
-    }
-    .botones{
-        position: absolute;
-        align-items: center;
-    }
-    .recuadro-logo{
-        align-items: center;
-        flex-direction: column;
-
-    } 
+    
 }

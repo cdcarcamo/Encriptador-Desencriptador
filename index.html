@@ -11,26 +11,32 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <main>
-            <section>
-                <h1 class="logo-principal"><img src="imagenes/Logo.svg" alt="logo alura"></h1>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/Logo.svg" alt="logo alura"></h1>
+            </div>
+        </header>
+        <main class="area_main">
+            <div>
                 <form>
                     <input type="text" id="mensaje" class="input" required placeholder="INGRESE EL TEXTO AQUI">
                 </form>
-            </section>
-            <section calss="botones">
+            </div>
+            <div calss="botones">
                 <label class="label-submit" for="Solo letras minusculas y sin acento"><img src="imagenes/logo_texto_submit.svg">Solo letras minusculas y sin accento</label>
                 <input type="button" value="Encriptar" class="encriptar">
                 <input type="button" value="Desencriptador" class="desencriptar">
-            </section>
+            </div>
             <section>
-                <ul class="recuadro-logo">
-                    <li>
-                        <img class= "imagen_personaje" src="imagenes/imagen_personaje.svg" alt="logo_personaje">
-                        <p class="Mensaje_advertencia">Ningun mensaje fue encontrado</p>
-                        <p class="Mensaje_solicitud">Ingresa el texto que desees encriptarr o desencriptar</p>
-                    </li>
-                </ul>
+                <div>
+                    <ul class="recuadro-logo">
+                        <li>
+                            <img class= "imagen_personaje" src="imagenes/imagen_personaje.svg" alt="logo_personaje">
+                            <p class="Mensaje_advertencia">Ningun mensaje fue encontrado</p>
+                            <p class="Mensaje_solicitud">Ingresa el texto que desees encriptarr o desencriptar</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
         <footer>
